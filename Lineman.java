@@ -11,7 +11,6 @@ public class Lineman extends Player {
      * Integer indicating the number of possible defense behaviours
      */
     public static final int DEFENSE_VAL = 3;
-    Random r = new Random();
 
     /**
      * Constructs a Lineman based on the provided name
@@ -32,6 +31,7 @@ public class Lineman extends Player {
      * Randomly sets the Defensive behaviour
      */
     public void setDefenceBehaviour() {
+        Random r = new Random();
         int roll = r.nextInt(DEFENSE_VAL);
         if(roll == 0){
             defenceBehaviour = new BlockBehaviour();

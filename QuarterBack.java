@@ -11,7 +11,6 @@ public class QuarterBack extends Player {
      * An integer indicating the possible offensive behaviour options
      */
     public static final int OFFENSE_VAL = 2;
-    Random r = new Random();
 
     /**
      * Constructs a QuarterBack based on the provided name
@@ -25,7 +24,7 @@ public class QuarterBack extends Player {
      * Will Randomly assign the offensive behaviour for the QuarterBack
      */
     public void setOffenseBehaviour() {
-        
+        Random r = new Random();
         int random = r.nextInt(OFFENSE_VAL);
         if(random == 0)
             this.offenseBehaviour = new PassBehaviour();
