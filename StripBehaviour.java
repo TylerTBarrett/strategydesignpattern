@@ -1,6 +1,5 @@
 public class StripBehaviour implements DefenceBehaviour {
-    public String play()
-    {
-        return "was stripped of the ball!";
+    public String play(){
+        return "Strip a ball from runnners hands";
     }
 }

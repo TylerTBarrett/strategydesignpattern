@@ -8,6 +8,8 @@ public abstract class Player{
         if(name != null)
             this.name = name;
         this.defence = false;
+        this.defenceBehaviour = null;
+        this.offenseBehaviour = null;
     }
     public abstract void setDefenceBehaviour();
     public abstract void setOffenseBehaviour();
