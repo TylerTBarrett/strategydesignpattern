@@ -3,12 +3,14 @@
  * @author Tyler Barrett
  * 
  */
-public class OBlockBehaviour implements OffenseBehaviour{
+
+public class OBlockBehaviour implements OffenseBehaviour {
+
     /**
      * returns the behaviour for an offensive block
      * @return A String specifying the behaviour of an offensive block
      */
-    public String play(){
+    public String play() {
         return "block defenders";
     }
 }

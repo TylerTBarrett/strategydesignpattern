@@ -3,7 +3,9 @@
  * @author Tyler Barrett
  * 
  */
-public interface DefenceBehaviour{
+
+public interface DefenceBehaviour {
+
     /**
      * Will randomly generate a behavior
      * @return A String will be returned denoting that behaviour
